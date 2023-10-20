@@ -13,7 +13,7 @@ function TableBook() {
                 {BooksFantasy.map((book) => (
                     <Col xs={12} sm={6} lg={3}>
                         <Card>
-                            <Card.Img style="height: 350px;" variant="top" src={book.img} />
+                            <Card.Img style={height: 350px;} variant="top" src={book.img} />
                             <Card.Body>
                                 <Card.Title>Card Title</Card.Title>
                                 <Card.Text>
