@@ -4,9 +4,9 @@ import Col from 'react-bootstrap/Col';
 
 function Footer() {
   return (
-    <Container fluid className='bg-dark text-light'>
+    <Container fluid className='bg-dark text-light mt-5'>
       <Row className='d-flex justify-content-center'>
-        <Col xs={4} >
+        <Col xs={12} sm={4}>
           <div className='footer-div'>
               <h4>Contatti</h4>
                 <p>Indirizzo: Via Example, 12345, Città</p>
@@ -14,7 +14,7 @@ function Footer() {
                 <p>Telefono: +39 0123 456789</p>
           </div>  
         </Col>
-        <Col xs={4}>
+        <Col xs={12} sm={4}>
           <div className='footer-div'>
            <h4>Link Utili</h4>
               <ul class="list-unstyled">

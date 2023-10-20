@@ -10,7 +10,7 @@ function App() {
     return (
     <>
     <MyNavBar/>
-    <div className="bg-body-tertiary">
+    <div className="bg-body-secondary">
       <Jumbotron/>
     </div>
     <TableBook/>
