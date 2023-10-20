@@ -1,24 +1,22 @@
-import logo from './logo.svg';
+import MyNavBar from "./navBar.jsx"
+import Jumbotron from "./Welcome.jsx"
+import Footer from "./Footer.jsx"
+import TableBook from "./LatestRelease.jsx"
+
 import './App.css';
 
+
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to Ciaoaooaoaoa.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    return (
+    <>
+    <MyNavBar/>
+    <div className="bg-body-tertiary">
+      <Jumbotron/>
     </div>
+    <TableBook/>
+    
+    <Footer/>
+    </>
   );
 }
 
