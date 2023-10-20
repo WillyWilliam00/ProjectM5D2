@@ -13,7 +13,9 @@ function App() {
     <div className="bg-body-secondary">
       <Jumbotron/>
     </div>
-    <TableBook/>
+    <main>
+      <TableBook/>
+    </main>
     
     <Footer/>
     </>
