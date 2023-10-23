@@ -7,17 +7,17 @@ import './App.css';
 
 
 function App() {
-    return (
+  return (
     <>
-    <MyNavBar/>
-    <div className="bg-body-secondary">
-      <Jumbotron/>
-    </div>
-    <main>
-      <TableBook/>
-    </main>
-    
-    <Footer/>
+      <MyNavBar />
+
+      <Jumbotron />
+
+
+      <TableBook />
+
+
+      <Footer />
     </>
   );
 }
